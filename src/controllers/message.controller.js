@@ -1,10 +1,6 @@
 class MessageController {
     static async MessageController (message, bot) {
-        
-        // const chat_id = message.chat.id
-        // const user_id = message.from.id
-        // const username = message.chat.first_name
-
+     
         const action = message.data 
         console.log(action);
         const msg = message.message
@@ -14,7 +10,7 @@ class MessageController {
       
         
         if (action == 'Beginner'){
-            text = 'Beginner';
+            text = 'Beginner kurslarimiz ......';
             return await bot.sendMessage(chat_id, text)
 
         }
