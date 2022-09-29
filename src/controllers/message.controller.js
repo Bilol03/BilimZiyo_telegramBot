@@ -15,8 +15,8 @@ class MessageController {
 
         }
 
-        if (action == 'Elementary kurslarimiz ....'){
-            text = 'Elementary';
+        if (action == 'Elementary'){
+            text = 'Elementary Kurslarimiz';
             return await bot.sendMessage(chat_id, text)
 
         }
